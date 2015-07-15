@@ -7,7 +7,8 @@
     "preinstall": "node bin/preinstall.js",
     "start": "nodemon .",
     "production": "NODE_ENV=production nodemon .",
-    "test": "tape \"lib/*/test/*-test.js\""
+    "test": "tape \"lib/*/test/*-test.js\"",
+    "debug": "node --debug server.js"
   },
   "keywords": [],
   "devDependencies": {

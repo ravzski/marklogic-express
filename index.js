@@ -1,7 +1,7 @@
 /* main module entry point */
-var cfg = require('_/config')
-var log = require('_/log')
-var app = require('_/app')
+var cfg = require('./config')
+var log = require('./log')
+var app = require('./app')
 
 app.listen(cfg.port)
 log.info('app listening on port', cfg.port)

@@ -1,4 +1,4 @@
-var log = require('_/log')
+var log = require('../../log')
 
 module.exports = function (er, req, res, next) {
   log.error(er)

@@ -1,5 +1,5 @@
 var marklogic = require("marklogic");
-var cfg = require('_/config');
+var cfg = require('../../../config');
 
 
 exports.db = function() {
@@ -9,5 +9,6 @@ exports.db = function() {
 exports.q = function() {
   var q = marklogic.queryBuilder; 
   console.log(q);
+  console.log("00000");
   return q;
 }

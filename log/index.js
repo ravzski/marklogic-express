@@ -1,4 +1,4 @@
-var cfg = require('_/config')
+var cfg = require('../config')
 var log = module.exports = require('graygelf')(cfg.graylog.host)
 log.on('error', console.error)
 

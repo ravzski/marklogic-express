@@ -5,8 +5,8 @@ var resolve = require('path').resolve
 var cfg = require('./env/'+env)
 cfg.env = env
 
-// env agnostic config
-cfg.pubDir = resolve(__dirname, '../../public')
-cfg.viewDir = resolve(__dirname, '../views')
+// // env agnostic config
+// cfg.pubDir = resolve(__dirname, '../../public')
+// cfg.viewDir = resolve(__dirname, '../views')
 
 module.exports = cfg
